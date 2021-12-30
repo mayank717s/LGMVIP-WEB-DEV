@@ -1,0 +1,66 @@
+/* ***** Logo  start ***** */
+.logo_Container {
+    display: flex;
+    align-items: center;
+}
+
+.logo_icon_container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5rem solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo_icon_container .logo_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #222;
+    border-radius: 50%;
+}
+
+/* ***** logo end ***** */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    padding: 0 4rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.navbar_items {
+    display: flex;
+    list-style: none;
+}
+
+.link a {
+    transition: all 0.3s linear;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem 1.5rem;
+    background-color: #222;
+    border-radius: 3px;
+    border: 0.2rem solid #222;
+}
+
+.link:hover a {
+    background-color: #fff;
+    color: #222;
+}
+
+a.active-class {
+    background-color: #ccc;
+    color: #000 !important;
+}
